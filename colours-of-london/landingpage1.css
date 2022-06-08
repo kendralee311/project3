@@ -1,0 +1,61 @@
+/*Reset*/
+
+h1{
+    font-family: Misto;
+    font-size: 100px;
+    color: #e44d4d;
+    padding-top: 106px;
+    padding-left: 106px;
+}
+
+.paragraph{
+    color: white;
+    font-family: Avenir;
+    padding-top: 2px;
+    padding-left: 106px;
+    line-height: 50%;
+    font-size: 14px;
+}
+
+body{
+    height: 500px;
+    width: 2679px;
+    background-color: #e9afaf;
+    overflow-x: scroll;
+    
+}
+
+.main .main__block{
+    padding-left: 500px;
+    display: flex;
+    flex-flow:row wrap;
+}
+
+.main .main__itens{
+    width: 300px;
+    flex: 1 auto ;
+    position:relative;
+    margin: 1%;
+
+}
+
+.main .main__itens--image{
+    max-width: 100%;
+    vertical-align: middle;
+    transition: .3s;
+   -webkit-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray;
+}
+
+.main .main__itens--image:hover{
+   -webkit-filter: grayscale(0%);
+   filter: grayscale(0%);
+   filter: none;
+   cursor: pointer;
+}
+
+
+  
+  
+  
